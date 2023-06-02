@@ -1,0 +1,51 @@
+.explore_content {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.silder {
+  width: 82%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem;
+  height: 29.5rem;
+}
+.diamond {
+  width: 230px;
+  height: 230px;
+  transform: rotate(45deg);
+  margin-top: 100px;
+  margin-left: 22%;
+}
+
+.diamond_card {
+  /* background: url('../../assets/rectangle.jpg'); */
+  background-size: cover;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: 2px 2px 3px 3px rgba(76, 76, 76, 0.301);
+  overflow: hidden;
+  transition: 1s;
+}
+.diamond_card:hover {
+  transform: scale(1.4);
+}
+.diamond_content {
+  background-color: rgba(0, 0, 0, 0.654);
+  transform: rotate(-45deg);
+  width: 210px;
+  height: 210px;
+  margin: -65px 0px 100px -60px;
+  color: white;
+  text-align: center;
+  padding: 110px 80px 80px 80px;
+}
